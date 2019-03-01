@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trucked Delivery Monitoring</title>
+	<link rel="stylesheet" type="text/css" href="style_nunavut.css">
+</head>
+<body>
+	<h1>Trucked Delivery Monitoring Parameters</h1>
+	<form>
+		<section>
+			<h2>Contact Time</h2> 
+			Minimum Contact Time <br>
+			<br>
+			How long was chlorine in the truck before delivery to the first home? <br>
+			<input type = "text"> minutes <br>
+			<br>
+			Maximum Contact Time <br>
+			<br>
+			How long was chlorine in the truck before delivery to the last home? <br>
+			<input type = "text"> minutes <br>
+			<h2>Water Quality</h2>
+			What was your chlorine residual in your truck? <br>
+			<br>
+			Chlorine Residual: <input type = "text"> mg/L <br>
+			<br>
+			Has any raw water been blended with chlorinated water in your water truck this week? <br>
+			<input type = "radio" name = "raw">Yes<br>
+			<input type = "radio" name = "raw">No<br>
+			<br>
+			Temperature in Truck: <input type = "text"> C <br>
+			<br>
+			Location on Route: <br>
+			<select>
+				<option value = "location"></option>
+				<option value = "location">Pumphouse</option>
+				<option value = "location">Housing Authority</option>
+				<option value = "location">Operator's House</option>
+		</section>
+		<input type = "submit">
+		<br>
+	</form>
+	<br>
+	<a href = "home.html">
+		Go Back to Home (results won't be saved)
+</body>
+</html>

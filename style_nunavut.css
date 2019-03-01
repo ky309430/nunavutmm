@@ -1,0 +1,53 @@
+body {
+	background-image: url(water2.jpg);
+	background-size: cover
+}
+form {color:rgb(7,18,58); 
+	font-weight: bold;
+	font-family:"Lucida Console";
+	border:rgb(119, 131, 171) 2px;
+	display:inline-block
+}
+input[type = "text"]
+{border: solid #505F90 2px;
+	border-radius: 2px
+}
+select{
+	border: solid #505F90 2px;
+	border-radius: 2px;
+	font-weight: bold;
+	font-family:"Lucida Console"
+}
+
+h1 {color:rgb(7, 18, 58);
+	font-family:"Lucida Console";
+	text-align:center;
+background-color:rgb(169, 178, 206)
+}
+
+section {
+	display:inline-block
+}
+h2{
+	color:rgb(7, 18, 58);
+	font-family:"Lucida Console";
+	text-align:left;
+	border:rgb(22, 36, 85) solid;
+	background-color:rgb(119, 131, 171)
+}
+
+a:link, a:visited {
+  background-color: #2F3F73;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  font-family:"Lucida Console"; 
+  text-decoration: none;
+  display: inline-block;
+  transition: 1s
+  margin: 2px;
+}
+
+a:hover{
+	transform: scale(1.1);
+}
